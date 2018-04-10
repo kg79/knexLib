@@ -1,7 +1,7 @@
 {
   "name": "library_app",
   "version": "1.0.0",
-  "description": "",
+  "description": "For this application you will be building a small library application. We'll start with one resource \"authors\" and build onto it.",
   "main": "app.js",
   "scripts": {
     "pretest": "NODE_ENV=test createdb knexlibrary_test; NODE_ENV=test knex migrate:latest",
@@ -16,10 +16,21 @@
     "supertest": "^1.2.0"
   },
   "dependencies": {
-    "body-parser": "^1.15.0",
+    "body-parser": "^1.18.2",
     "express": "^4.16.3",
     "knex": "^0.10.0",
-    "method-override": "^2.3.5",
-    "pg": "^4.5.2"
-  }
+    "method-override": "^2.3.10",
+    "pg": "^4.5.7"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keolazy/knexLib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/keolazy/knexLib/issues"
+  },
+  "homepage": "https://github.com/keolazy/knexLib#readme"
 }
