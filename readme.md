@@ -1,4 +1,4 @@
-## Knex Libary App
+## Knex Liberry App
 
 For this application you will be building a small library application. We'll start with one resource "authors" and build onto it.
 
