@@ -5,7 +5,9 @@ module.exports = {
   development: {
     client: 'postgresql',
     connection: {
-      database:knexdb
+      database:'knexdb',
+      user:'postgres',
+      password:'coffeeDrinker'
     }
   }
 };
