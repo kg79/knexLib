@@ -1,6 +1,15 @@
-var express = require("express");
-var app = express();
+const express = require('express');
+const app = express();
+const PORT = 3334;
 
-module.exports = {
-  app
-}
+app.get('/', (req, res) => {
+  res.end('alrighty then')
+});
+
+
+app.listen(PORT, () => {
+  console.log('neat');
+})
+
+
+module.exports = app;
