@@ -3,11 +3,14 @@
 module.exports = {
 
   development: {
-    client: 'postgresql',
+    client: 'postgres',
     connection: {
       database:'knexdb',
       user:'postgres',
-      password:'coffeeDrinker'
+      password:'coffeeDrinker',
+      seeds: {
+          directory: '../seeds/authors'
+      }
     }
   }
 };
