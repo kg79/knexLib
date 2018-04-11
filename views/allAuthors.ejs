@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+    table {border-collapse:collapse;}
+    td {border:solid lime 2px;}
+    </style>
+  </head>
+  <body>
+    <table>
+    <% for (let i in bookWriters) { %>
+      <tr><td><%= bookWriters[i].id %></td><td><%= bookWriters[i].name %> </td><td><%= bookWriters[i].age %></td>
+        <% } %>
+    </table>
+  </body>
+</html>
