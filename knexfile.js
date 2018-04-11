@@ -9,7 +9,7 @@ module.exports = {
       user:'postgres',
       password:'coffeeDrinker',
       seeds: {
-          directory: '../seeds/authors'
+          directory: '../seeds/bookWritingPeople'
       }
     }
   }
